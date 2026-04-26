@@ -1,0 +1,18 @@
+#sidebar {
+  background: url('/assets/img/sidebar-bg.jpg') center/cover no-repeat;
+
+  // Darken the image so text remains legible
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 0;
+  }
+
+  // Ensure content sits above the overlay
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+}
