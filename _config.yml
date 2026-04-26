@@ -14,9 +14,15 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
+<<<<<<< HEAD
 title: Dan Peiu # the main title
 
 tagline: A home for research and learning, documenting Cyber Threat Intelligence, OSINT research and HackTheBox writeups. Views expressed are entirely my own. # it will display as the subtitle
+=======
+title: Chirpy # the main title
+
+tagline: A text-focused Jekyll theme # it will display as the subtitle
+>>>>>>> d3cd525a36aabbc0fe36539716b04928e8431d88
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -26,16 +32,28 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
+<<<<<<< HEAD
   username: g0ldeen.github.io # change to your GitHub username
 
 #twitter:
   #username: twitter_username # change to your Twitter username
+=======
+  username: github_username # change to your GitHub username
+
+twitter:
+  username: twitter_username # change to your Twitter username
+>>>>>>> d3cd525a36aabbc0fe36539716b04928e8431d88
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
+<<<<<<< HEAD
   name: g0ldeen
  # email: example@domain.com # change to your email address
+=======
+  name: your_full_name
+  email: example@domain.com # change to your email address
+>>>>>>> d3cd525a36aabbc0fe36539716b04928e8431d88
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your Twitter homepage
@@ -98,7 +116,11 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
+<<<<<<< HEAD
 avatar: /assets/img/sphere.jpg
+=======
+avatar:
+>>>>>>> d3cd525a36aabbc0fe36539716b04928e8431d88
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
